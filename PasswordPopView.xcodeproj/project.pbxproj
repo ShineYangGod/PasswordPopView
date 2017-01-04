@@ -15,6 +15,7 @@
 		685A24351E1CAAE400EF510C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685A24331E1CAAE400EF510C /* LaunchScreen.storyboard */; };
 		685A24401E1CAAE400EF510C /* PasswordPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A243F1E1CAAE400EF510C /* PasswordPopViewTests.m */; };
 		685A244B1E1CAAE400EF510C /* PasswordPopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A244A1E1CAAE400EF510C /* PasswordPopViewUITests.m */; };
+		685A245A1E1CAAFE00EF510C /* PasswordPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A24591E1CAAFE00EF510C /* PasswordPopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		685A24461E1CAAE400EF510C /* PasswordPopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordPopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		685A244A1E1CAAE400EF510C /* PasswordPopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordPopViewUITests.m; sourceTree = "<group>"; };
 		685A244C1E1CAAE400EF510C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685A24581E1CAAFE00EF510C /* PasswordPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordPopView.h; sourceTree = "<group>"; };
+		685A24591E1CAAFE00EF510C /* PasswordPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordPopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				685A24291E1CAAE400EF510C /* AppDelegate.m */,
 				685A242B1E1CAAE400EF510C /* ViewController.h */,
 				685A242C1E1CAAE400EF510C /* ViewController.m */,
+				685A24581E1CAAFE00EF510C /* PasswordPopView.h */,
+				685A24591E1CAAFE00EF510C /* PasswordPopView.m */,
 				685A242E1E1CAAE400EF510C /* Main.storyboard */,
 				685A24311E1CAAE400EF510C /* Assets.xcassets */,
 				685A24331E1CAAE400EF510C /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				685A242D1E1CAAE400EF510C /* ViewController.m in Sources */,
+				685A245A1E1CAAFE00EF510C /* PasswordPopView.m in Sources */,
 				685A242A1E1CAAE400EF510C /* AppDelegate.m in Sources */,
 				685A24271E1CAAE400EF510C /* main.m in Sources */,
 			);
