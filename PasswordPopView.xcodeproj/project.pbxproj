@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		685A24271E1CAAE400EF510C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A24261E1CAAE400EF510C /* main.m */; };
+		685A242A1E1CAAE400EF510C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A24291E1CAAE400EF510C /* AppDelegate.m */; };
+		685A242D1E1CAAE400EF510C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A242C1E1CAAE400EF510C /* ViewController.m */; };
+		685A24301E1CAAE400EF510C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685A242E1E1CAAE400EF510C /* Main.storyboard */; };
+		685A24321E1CAAE400EF510C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685A24311E1CAAE400EF510C /* Assets.xcassets */; };
+		685A24351E1CAAE400EF510C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685A24331E1CAAE400EF510C /* LaunchScreen.storyboard */; };
+		685A24401E1CAAE400EF510C /* PasswordPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A243F1E1CAAE400EF510C /* PasswordPopViewTests.m */; };
+		685A244B1E1CAAE400EF510C /* PasswordPopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685A244A1E1CAAE400EF510C /* PasswordPopViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		685A243C1E1CAAE400EF510C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685A241A1E1CAAE400EF510C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685A24211E1CAAE400EF510C;
+			remoteInfo = PasswordPopView;
+		};
+		685A24471E1CAAE400EF510C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685A241A1E1CAAE400EF510C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685A24211E1CAAE400EF510C;
+			remoteInfo = PasswordPopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		685A24221E1CAAE400EF510C /* PasswordPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685A24261E1CAAE400EF510C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		685A24281E1CAAE400EF510C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		685A24291E1CAAE400EF510C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		685A242B1E1CAAE400EF510C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		685A242C1E1CAAE400EF510C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		685A242F1E1CAAE400EF510C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685A24311E1CAAE400EF510C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685A24341E1CAAE400EF510C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		685A24361E1CAAE400EF510C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685A243B1E1CAAE400EF510C /* PasswordPopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordPopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685A243F1E1CAAE400EF510C /* PasswordPopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordPopViewTests.m; sourceTree = "<group>"; };
+		685A24411E1CAAE400EF510C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685A24461E1CAAE400EF510C /* PasswordPopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordPopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685A244A1E1CAAE400EF510C /* PasswordPopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordPopViewUITests.m; sourceTree = "<group>"; };
+		685A244C1E1CAAE400EF510C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685A241F1E1CAAE400EF510C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A24381E1CAAE400EF510C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A24431E1CAAE400EF510C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		685A24191E1CAAE400EF510C = {
+			isa = PBXGroup;
+			children = (
+				685A24241E1CAAE400EF510C /* PasswordPopView */,
+				685A243E1E1CAAE400EF510C /* PasswordPopViewTests */,
+				685A24491E1CAAE400EF510C /* PasswordPopViewUITests */,
+				685A24231E1CAAE400EF510C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		685A24231E1CAAE400EF510C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685A24221E1CAAE400EF510C /* PasswordPopView.app */,
+				685A243B1E1CAAE400EF510C /* PasswordPopViewTests.xctest */,
+				685A24461E1CAAE400EF510C /* PasswordPopViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685A24241E1CAAE400EF510C /* PasswordPopView */ = {
+			isa = PBXGroup;
+			children = (
+				685A24281E1CAAE400EF510C /* AppDelegate.h */,
+				685A24291E1CAAE400EF510C /* AppDelegate.m */,
+				685A242B1E1CAAE400EF510C /* ViewController.h */,
+				685A242C1E1CAAE400EF510C /* ViewController.m */,
+				685A242E1E1CAAE400EF510C /* Main.storyboard */,
+				685A24311E1CAAE400EF510C /* Assets.xcassets */,
+				685A24331E1CAAE400EF510C /* LaunchScreen.storyboard */,
+				685A24361E1CAAE400EF510C /* Info.plist */,
+				685A24251E1CAAE400EF510C /* Supporting Files */,
+			);
+			path = PasswordPopView;
+			sourceTree = "<group>";
+		};
+		685A24251E1CAAE400EF510C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				685A24261E1CAAE400EF510C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		685A243E1E1CAAE400EF510C /* PasswordPopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				685A243F1E1CAAE400EF510C /* PasswordPopViewTests.m */,
+				685A24411E1CAAE400EF510C /* Info.plist */,
+			);
+			path = PasswordPopViewTests;
+			sourceTree = "<group>";
+		};
+		685A24491E1CAAE400EF510C /* PasswordPopViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				685A244A1E1CAAE400EF510C /* PasswordPopViewUITests.m */,
+				685A244C1E1CAAE400EF510C /* Info.plist */,
+			);
+			path = PasswordPopViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685A24211E1CAAE400EF510C /* PasswordPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685A244F1E1CAAE400EF510C /* Build configuration list for PBXNativeTarget "PasswordPopView" */;
+			buildPhases = (
+				685A241E1E1CAAE400EF510C /* Sources */,
+				685A241F1E1CAAE400EF510C /* Frameworks */,
+				685A24201E1CAAE400EF510C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordPopView;
+			productName = PasswordPopView;
+			productReference = 685A24221E1CAAE400EF510C /* PasswordPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		685A243A1E1CAAE400EF510C /* PasswordPopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685A24521E1CAAE400EF510C /* Build configuration list for PBXNativeTarget "PasswordPopViewTests" */;
+			buildPhases = (
+				685A24371E1CAAE400EF510C /* Sources */,
+				685A24381E1CAAE400EF510C /* Frameworks */,
+				685A24391E1CAAE400EF510C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685A243D1E1CAAE400EF510C /* PBXTargetDependency */,
+			);
+			name = PasswordPopViewTests;
+			productName = PasswordPopViewTests;
+			productReference = 685A243B1E1CAAE400EF510C /* PasswordPopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		685A24451E1CAAE400EF510C /* PasswordPopViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685A24551E1CAAE400EF510C /* Build configuration list for PBXNativeTarget "PasswordPopViewUITests" */;
+			buildPhases = (
+				685A24421E1CAAE400EF510C /* Sources */,
+				685A24431E1CAAE400EF510C /* Frameworks */,
+				685A24441E1CAAE400EF510C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685A24481E1CAAE400EF510C /* PBXTargetDependency */,
+			);
+			name = PasswordPopViewUITests;
+			productName = PasswordPopViewUITests;
+			productReference = 685A24461E1CAAE400EF510C /* PasswordPopViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685A241A1E1CAAE400EF510C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "杨晨";
+				TargetAttributes = {
+					685A24211E1CAAE400EF510C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					685A243A1E1CAAE400EF510C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 685A24211E1CAAE400EF510C;
+					};
+					685A24451E1CAAE400EF510C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 685A24211E1CAAE400EF510C;
+					};
+				};
+			};
+			buildConfigurationList = 685A241D1E1CAAE400EF510C /* Build configuration list for PBXProject "PasswordPopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 685A24191E1CAAE400EF510C;
+			productRefGroup = 685A24231E1CAAE400EF510C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685A24211E1CAAE400EF510C /* PasswordPopView */,
+				685A243A1E1CAAE400EF510C /* PasswordPopViewTests */,
+				685A24451E1CAAE400EF510C /* PasswordPopViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685A24201E1CAAE400EF510C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685A24351E1CAAE400EF510C /* LaunchScreen.storyboard in Resources */,
+				685A24321E1CAAE400EF510C /* Assets.xcassets in Resources */,
+				685A24301E1CAAE400EF510C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A24391E1CAAE400EF510C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A24441E1CAAE400EF510C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685A241E1E1CAAE400EF510C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685A242D1E1CAAE400EF510C /* ViewController.m in Sources */,
+				685A242A1E1CAAE400EF510C /* AppDelegate.m in Sources */,
+				685A24271E1CAAE400EF510C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A24371E1CAAE400EF510C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685A24401E1CAAE400EF510C /* PasswordPopViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685A24421E1CAAE400EF510C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685A244B1E1CAAE400EF510C /* PasswordPopViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		685A243D1E1CAAE400EF510C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685A24211E1CAAE400EF510C /* PasswordPopView */;
+			targetProxy = 685A243C1E1CAAE400EF510C /* PBXContainerItemProxy */;
+		};
+		685A24481E1CAAE400EF510C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685A24211E1CAAE400EF510C /* PasswordPopView */;
+			targetProxy = 685A24471E1CAAE400EF510C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		685A242E1E1CAAE400EF510C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685A242F1E1CAAE400EF510C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		685A24331E1CAAE400EF510C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685A24341E1CAAE400EF510C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685A244D1E1CAAE400EF510C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685A244E1E1CAAE400EF510C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685A24501E1CAAE400EF510C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangchen.com.PasswordPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		685A24511E1CAAE400EF510C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangchen.com.PasswordPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		685A24531E1CAAE400EF510C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordPopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangchen.com.PasswordPopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordPopView.app/PasswordPopView";
+			};
+			name = Debug;
+		};
+		685A24541E1CAAE400EF510C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordPopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangchen.com.PasswordPopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordPopView.app/PasswordPopView";
+			};
+			name = Release;
+		};
+		685A24561E1CAAE400EF510C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordPopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangchen.com.PasswordPopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PasswordPopView;
+			};
+			name = Debug;
+		};
+		685A24571E1CAAE400EF510C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordPopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangchen.com.PasswordPopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PasswordPopView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685A241D1E1CAAE400EF510C /* Build configuration list for PBXProject "PasswordPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A244D1E1CAAE400EF510C /* Debug */,
+				685A244E1E1CAAE400EF510C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685A244F1E1CAAE400EF510C /* Build configuration list for PBXNativeTarget "PasswordPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A24501E1CAAE400EF510C /* Debug */,
+				685A24511E1CAAE400EF510C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		685A24521E1CAAE400EF510C /* Build configuration list for PBXNativeTarget "PasswordPopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A24531E1CAAE400EF510C /* Debug */,
+				685A24541E1CAAE400EF510C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		685A24551E1CAAE400EF510C /* Build configuration list for PBXNativeTarget "PasswordPopViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685A24561E1CAAE400EF510C /* Debug */,
+				685A24571E1CAAE400EF510C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685A241A1E1CAAE400EF510C /* Project object */;
+}
